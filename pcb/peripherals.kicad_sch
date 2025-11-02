@@ -2166,7 +2166,7 @@
 		)
 		(uuid "ac242f05-8d31-4756-b11c-a97e02244570")
 	)
-	(text "I2C Address: 0x80"
+	(text "I2C Address: 0x40"
 		(exclude_from_sim no)
 		(at 55.372 83.566 0)
 		(effects
