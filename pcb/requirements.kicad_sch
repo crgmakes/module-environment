@@ -19745,7 +19745,7 @@
 		)
 		(uuid "47ca0da0-9bec-4943-aa47-9af4a8e103f9")
 	)
-	(text_box "BASIC\n\n* ATTINY-1616 MCU\n* I2C Switch\n* Programming Header\n* ESD Protection\n\n"
+	(text_box "BASIC\n\n* ATTINY-1616 MCU\n* I2C Switch\n* Programming Header\n* I2C In and Out\n* Power In and Out\n\n"
 		(exclude_from_sim yes)
 		(at 17.78 25.4 0)
 		(size 85.09 55.88)

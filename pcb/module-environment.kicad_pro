@@ -735,6 +735,18 @@
           "label": "Vr",
           "name": "Vr",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WVDC",
+          "name": "WVDC",
+          "show": false
         }
       ],
       "filter_string": "",

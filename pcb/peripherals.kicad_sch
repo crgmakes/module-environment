@@ -11,28 +11,51 @@
 		(comment 1 "<<hash>>")
 	)
 	(lib_symbols
-		(symbol "CRG Makes:HDC1080"
+		(symbol "CRG Makes:AHT20-F"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 6.35 0)
+				(at -5.334 6.096 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "HDC1080"
-				(at 5.08 6.35 0)
+			(property "Value" "AHT20-F"
+				(at 6.35 6.096 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "CRG Makes:PWSON-N6"
-				(at -0.254 -27.94 0)
+			(property "Footprint" "CRG Makes:AHT20"
+				(at 0 -20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://asairsensors.com/wp-content/uploads/2021/09/Data-Sheet-AHT20-Humidity-and-Temperature-Sensor-ASAIR-V1.0.03.pdf"
+				(at 0 -28.448 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Temperature and Humidity sensor ±2%RH -40C~+85C 0%RH~100%RH I2C SMD-6P,3x3mm"
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,8 +63,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
-				(at -0.254 -25.146 0)
+			(property "MN" "Aosong"
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -49,43 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"
-				(at -0.254 -22.606 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digikey" "296-46272-2-ND"
-				(at -0.254 -32.004 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "595-HDC1080DMBR"
-				(at -0.254 -29.972 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C82227"
-				(at -0.254 -33.528 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MN" "TI"
+			(property "MPN" "AHT20-F"
 				(at 0 -18.796 0)
 				(effects
 					(font
@@ -94,8 +81,8 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "HDC1080DMBR"
-				(at 0 -20.828 0)
+			(property "LCSC" "C3012622"
+				(at 0 -26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -103,7 +90,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Temperature Humidity Sensor"
+			(property "ki_keywords" "AHT20-F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -112,63 +99,44 @@
 					(hide yes)
 				)
 			)
-			(symbol "HDC1080_0_1"
+			(property "ki_fp_filters" "SENSOR_AHT20_GAE SENSOR_AHT20_GAE-M SENSOR_AHT20_GAE-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AHT20-F_0_1"
+				(rectangle
+					(start -16.002 -8.382)
+					(end -16.002 -8.382)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AHT20-F_1_1"
 				(rectangle
 					(start -6.35 5.08)
 					(end 6.35 -5.08)
 					(stroke
 						(width 0.254)
-						(type default)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-			)
-			(symbol "HDC1080_1_1"
-				(pin no_connect line
-					(at -6.35 2.54 0)
+				(pin bidirectional line
+					(at -8.89 1.27 0)
 					(length 2.54)
-					(hide yes)
-					(name "DAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -6.35 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -183,17 +151,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
+				(pin input line
+					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "VCC"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -201,10 +169,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin passive line
+					(at 0 7.62 270)
 					(length 2.54)
-					(name "GND"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -219,17 +187,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 8.89 1.27 180)
+				(pin passive line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "SDA"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -237,10 +205,11 @@
 						)
 					)
 				)
-				(pin input line
-					(at 8.89 -1.27 180)
+				(pin no_connect line
+					(at 6.35 1.27 180)
 					(length 2.54)
-					(name "SCL"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -248,6 +217,25 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2142,7 +2130,7 @@
 	)
 	(text "Temp/Hum"
 		(exclude_from_sim no)
-		(at 62.738 118.872 0)
+		(at 60.96 116.332 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2166,7 +2154,7 @@
 		)
 		(uuid "ac242f05-8d31-4756-b11c-a97e02244570")
 	)
-	(text "I2C Address: 0x40"
+	(text "I2C Address: 0x38"
 		(exclude_from_sim no)
 		(at 55.372 83.566 0)
 		(effects
@@ -2180,16 +2168,16 @@
 		(uuid "e89e34b6-c75e-4614-90ff-8a38780e57bc")
 	)
 	(junction
+		(at 44.45 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f64df4e-62b0-4d45-bf16-ed27b83e333d")
+	)
+	(junction
 		(at 73.66 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dd6e427-88db-4282-8bda-404203d41ba0")
-	)
-	(junction
-		(at 50.8 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ead7118-596d-41f8-8281-38a84e379f62")
 	)
 	(junction
 		(at 184.15 39.37)
@@ -2216,6 +2204,12 @@
 		(uuid "4c6f9fca-c7d4-47b2-870d-0f9f192814d7")
 	)
 	(junction
+		(at 40.64 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "507be089-a303-467c-a743-7aaf95bd0707")
+	)
+	(junction
 		(at 152.4 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2226,6 +2220,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66b026b6-29e2-4db7-bfbe-347695a12658")
+	)
+	(junction
+		(at 54.61 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9092812e-81c7-4a65-9b0e-7f9a8bb099c4")
+	)
+	(junction
+		(at 57.15 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d54663f-c842-4404-a62a-4eb0aedda6e1")
 	)
 	(junction
 		(at 133.35 59.69)
@@ -2276,12 +2282,6 @@
 		(uuid "ce14b604-7142-44be-8223-ac0722720d64")
 	)
 	(junction
-		(at 48.26 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0f28b21-a8c6-4702-94e0-c767b7de6863")
-	)
-	(junction
 		(at 165.1 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2312,6 +2312,12 @@
 		(uuid "f7150086-5b87-4e27-a6fc-1f9704b41ae3")
 	)
 	(junction
+		(at 48.26 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f78bf4ce-ca38-45ce-b911-4ebe96838365")
+	)
+	(junction
 		(at 146.05 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2320,6 +2326,16 @@
 	(no_connect
 		(at 116.84 100.33)
 		(uuid "8f6d06cd-9451-4778-a419-356f40d8b452")
+	)
+	(wire
+		(pts
+			(xy 31.75 90.17) (xy 30.48 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005b9378-97a3-4285-ad65-c1e4773691ab")
 	)
 	(wire
 		(pts
@@ -2343,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 123.19) (xy 48.26 123.19)
+			(xy 38.1 123.19) (xy 54.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2380,16 +2396,6 @@
 			(type default)
 		)
 		(uuid "0eab6fd7-15db-49d5-a88b-984d6cbd2667")
-	)
-	(wire
-		(pts
-			(xy 50.8 125.73) (xy 93.98 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed335a9-54e7-408a-b1f3-8fff6bdee1e2")
 	)
 	(wire
 		(pts
@@ -2433,6 +2439,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 123.19) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1572ebfc-8778-4a18-9282-eea2c4ac637d")
+	)
+	(wire
+		(pts
 			(xy 134.62 95.25) (xy 144.78 95.25)
 		)
 		(stroke
@@ -2463,6 +2479,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 90.17) (xy 40.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191002fd-f43a-46fe-bd92-05e275899bbf")
+	)
+	(wire
+		(pts
 			(xy 38.1 119.38) (xy 38.1 123.19)
 		)
 		(stroke
@@ -2473,7 +2499,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 100.33) (xy 50.8 125.73)
+			(xy 57.15 100.33) (xy 57.15 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2583,13 +2609,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 123.19) (xy 91.44 123.19)
+			(xy 30.48 90.17) (xy 30.48 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f7533f8-1f35-4624-8ab2-d9421f77738b")
+		(uuid "55cbb73d-fc2a-426b-bc72-a73ca196c887")
 	)
 	(wire
 		(pts
@@ -2610,6 +2636,16 @@
 			(type default)
 		)
 		(uuid "5f83bf52-d5b7-4362-9277-7199ac68ff40")
+	)
+	(wire
+		(pts
+			(xy 57.15 125.73) (xy 93.98 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc1cd9e-9622-4a69-ae1e-24ae1ca7daed")
 	)
 	(wire
 		(pts
@@ -2653,7 +2689,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 125.73) (xy 50.8 125.73)
+			(xy 40.64 101.6) (xy 40.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1f6796-4e18-4b4f-aa04-4155241054a0")
+	)
+	(wire
+		(pts
+			(xy 40.64 125.73) (xy 57.15 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 97.79) (xy 59.69 97.79)
+			(xy 54.61 97.79) (xy 59.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2710,6 +2756,16 @@
 			(type default)
 		)
 		(uuid "74cb5f99-6510-4166-9cfb-adb970123501")
+	)
+	(wire
+		(pts
+			(xy 48.26 100.33) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ee313b-2f25-49d6-a8a0-da282321dc52")
 	)
 	(wire
 		(pts
@@ -2733,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 92.71) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce34029-3505-4e85-a2a1-5834ee7a7b37")
+	)
+	(wire
+		(pts
 			(xy 27.94 46.99) (xy 60.96 46.99)
 		)
 		(stroke
@@ -2750,6 +2816,16 @@
 			(type default)
 		)
 		(uuid "83708362-fa7c-44ad-8e34-241c38c433c6")
+	)
+	(wire
+		(pts
+			(xy 48.26 90.17) (xy 68.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8386c9d1-c383-4655-8692-bbe6f9db70e9")
 	)
 	(wire
 		(pts
@@ -2813,13 +2889,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 100.33) (xy 59.69 100.33)
+			(xy 57.15 100.33) (xy 59.69 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99d757ac-be83-49a6-ad33-ccc5adff3465")
+	)
+	(wire
+		(pts
+			(xy 44.45 101.6) (xy 40.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5202ac-cf3e-4a24-af0e-37069965e362")
 	)
 	(wire
 		(pts
@@ -2830,6 +2916,16 @@
 			(type default)
 		)
 		(uuid "9b0805a5-7090-43d2-921b-a87343baecca")
+	)
+	(wire
+		(pts
+			(xy 44.45 102.87) (xy 44.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c9a976-da62-4820-9b1a-38c20fcf7fc6")
 	)
 	(wire
 		(pts
@@ -2993,6 +3089,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 101.6) (xy 44.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced0b234-2345-4320-b877-a161097dfc68")
+	)
+	(wire
+		(pts
 			(xy 35.56 31.75) (xy 35.56 57.15)
 		)
 		(stroke
@@ -3063,13 +3169,33 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 97.79) (xy 48.26 123.19)
+			(xy 54.61 97.79) (xy 54.61 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e3b58376-a140-47cf-9e28-04462b951b34")
+	)
+	(wire
+		(pts
+			(xy 40.64 90.17) (xy 40.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5985431-e456-4be8-bcb0-4a6c44c73e56")
+	)
+	(wire
+		(pts
+			(xy 68.58 91.44) (xy 68.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64a6d85-785d-43ca-a0ed-839fba4b583f")
 	)
 	(wire
 		(pts
@@ -3140,6 +3266,16 @@
 			(type default)
 		)
 		(uuid "f86dbd06-efeb-448c-925d-629d5730aeef")
+	)
+	(wire
+		(pts
+			(xy 48.26 90.17) (xy 40.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe74f305-33f8-4cda-b701-c56d672fadaa")
 	)
 	(label "SCL_INT"
 		(at 26.67 125.73 0)
@@ -3587,8 +3723,149 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 48.26 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05b1ce12-bcea-416c-b98d-b433e2203bb1")
+		(property "Reference" "C7"
+			(at 48.514 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 48.514 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRGM Passive:C_0603_1608Metric"
+			(at 49.2252 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10V 10uF X5R ±10% 0603 MLCC"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "WVDC" "10V"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "HRE"
+			(at 50.8 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CGA0603X5R106K100JT"
+			(at 41.402 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "187-CL10A106KP8NNNC"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "1276-1192-2-ND"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119842"
+			(at 40.894 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00c35902-572f-4296-b3ff-5c3ec04359cb")
+		)
+		(pin "2"
+			(uuid "4ed5f9cd-8720-4fff-924f-d7579911d489")
+		)
+		(instances
+			(project "module-environment"
+				(path "/a8149920-3b7f-4d7d-8e96-7a0b38870225/750b9b07-db7a-4289-8a61-542df9f7ebc0"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 80.01 100.33 0)
+		(at 30.48 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3596,7 +3873,7 @@
 		(dnp no)
 		(uuid "0d18f089-c5be-4774-8454-7da1658ccaa7")
 		(property "Reference" "#PWR051"
-			(at 80.01 104.14 0)
+			(at 30.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3882,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 80.01 96.774 0)
+			(at 30.48 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3890,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 100.33 0)
+			(at 30.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,7 +3899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 100.33 0)
+			(at 30.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 80.01 100.33 0)
+			(at 30.48 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,6 +5743,129 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 35.56 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e26d8fc-867e-4a28-95ed-9cb573287987")
+		(property "Reference" "R19"
+			(at 37.084 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 37.338 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CRGM Passive:R_0603_1608Metric"
+			(at 35.814 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1/10Watt 4.7ohms 5%"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "FOJAN"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "FRC0603J221 TS"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "652-CR0603JW-221ELF"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "118-CR0603-JW-221ELFTR-ND"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907127"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be374770-8de2-4196-b57e-01120d5bbaf0")
+		)
+		(pin "1"
+			(uuid "f32f0e43-c05a-4156-a64f-cba84b6199df")
+		)
+		(instances
+			(project "module-environment"
+				(path "/a8149920-3b7f-4d7d-8e96-7a0b38870225/750b9b07-db7a-4289-8a61-542df9f7ebc0"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 54.61 27.94 0)
 		(mirror x)
 		(unit 1)
@@ -6705,134 +7105,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CRG Makes:HDC1080")
-		(at 68.58 99.06 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8806fef5-dcb9-4cf1-a62b-a446c6251a4c")
-		(property "Reference" "U3"
-			(at 70.866 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HDC1080"
-			(at 73.914 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRG Makes:PWSON-N6"
-			(at 68.834 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
-			(at 68.834 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"
-			(at 68.834 121.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MN" "TI"
-			(at 68.58 117.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HDC1080DMBR"
-			(at 68.58 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "296-46272-2-ND"
-			(at 68.834 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "595-HDC1080DMBR"
-			(at 68.834 129.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C82227"
-			(at 68.834 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "b485b260-9426-4b23-8805-3a1b07add8f4")
-		)
-		(pin "4"
-			(uuid "5de061fa-b85c-4b31-970a-69c4c546628a")
-		)
-		(pin "3"
-			(uuid "372fd00a-2752-4010-8adb-5bee5e42d97a")
-		)
-		(pin "5"
-			(uuid "7c3ceb0c-4014-40f8-b4ac-1c220264db05")
-		)
-		(pin "2"
-			(uuid "1daaa659-ff92-4bd8-95c9-66d7b6853b5b")
-		)
-		(pin "6"
-			(uuid "5d274c55-b5c0-4df9-902e-a7d8b9494785")
-		)
-		(pin "1"
-			(uuid "75715ba4-725b-40d1-94b3-f284e072cb89")
-		)
-		(instances
-			(project "module-environment"
-				(path "/a8149920-3b7f-4d7d-8e96-7a0b38870225/750b9b07-db7a-4289-8a61-542df9f7ebc0"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CRG Makes:PCA9545APW,118")
 		(at 101.6 48.26 0)
 		(unit 1)
@@ -7237,7 +7509,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 104.14 0)
+		(at 40.64 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7245,7 +7517,7 @@
 		(dnp no)
 		(uuid "a7c2056d-7b95-48fe-bc2a-8e8d892d6a99")
 		(property "Reference" "C2"
-			(at 80.264 102.108 0)
+			(at 40.894 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,7 +7526,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 80.518 106.172 0)
+			(at 41.148 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7535,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:C_0603_1608Metric"
-			(at 80.9752 107.95 0)
+			(at 41.6052 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 104.14 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7553,7 @@
 			)
 		)
 		(property "Description" "CAP CER 100nF 16V X5R 0603"
-			(at 80.01 104.14 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +7562,7 @@
 			)
 		)
 		(property "MN" "Samsung"
-			(at 80.01 104.14 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7571,7 @@
 			)
 		)
 		(property "MPN" "CL10B104KO8NNNC"
-			(at 80.01 104.14 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7580,7 @@
 			)
 		)
 		(property "Digikey" "1276-1005-2-ND"
-			(at 80.01 104.14 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,7 +7589,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10B104KO8NNNC"
-			(at 80.01 104.14 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,7 +7598,7 @@
 			)
 		)
 		(property "LCSC" "C66501"
-			(at 80.01 104.14 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7335,7 +7607,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 80.01 104.14 0)
+			(at 40.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7980,71 +8252,6 @@
 			(project "module-base-attiny1616"
 				(path "/a8149920-3b7f-4d7d-8e96-7a0b38870225/750b9b07-db7a-4289-8a61-542df9f7ebc0"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 68.58 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c574ebec-78af-43d5-a90a-88bc377d6681")
-		(property "Reference" "#PWR053"
-			(at 68.58 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 68.58 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 68.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22879483-8493-42ab-908a-1a94f7932932")
-		)
-		(instances
-			(project "module-environment"
-				(path "/a8149920-3b7f-4d7d-8e96-7a0b38870225/750b9b07-db7a-4289-8a61-542df9f7ebc0"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8888,7 +9095,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 107.95 0)
+		(at 44.45 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8896,7 +9103,7 @@
 		(dnp no)
 		(uuid "e20c985e-ba07-4c96-b24c-ef94f878d91e")
 		(property "Reference" "#PWR052"
-			(at 80.01 114.3 0)
+			(at 44.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +9112,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 111.506 0)
+			(at 44.45 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +9120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 107.95 0)
+			(at 44.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,7 +9129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 107.95 0)
+			(at 44.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +9138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 107.95 0)
+			(at 44.45 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,6 +9956,132 @@
 			(project "module-environment"
 				(path "/a8149920-3b7f-4d7d-8e96-7a0b38870225/750b9b07-db7a-4289-8a61-542df9f7ebc0"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRG Makes:AHT20-F")
+		(at 68.58 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4e7d623-a09a-48b8-89ba-a04e268caa3b")
+		(property "Reference" "U3"
+			(at 63.246 92.964 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AHT20-F"
+			(at 74.93 92.964 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "CRG Makes:AHT20"
+			(at 68.58 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://asairsensors.com/wp-content/uploads/2021/09/Data-Sheet-AHT20-Humidity-and-Temperature-Sensor-ASAIR-V1.0.03.pdf"
+			(at 68.58 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Temperature and Humidity sensor ±2%RH -40C~+85C 0%RH~100%RH I2C SMD-6P,3x3mm"
+			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MN" "Aosong"
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AHT20-F"
+			(at 68.58 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3012622"
+			(at 68.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d068d9e4-efc9-48c0-81e8-6a0f86e6224b")
+		)
+		(pin "5"
+			(uuid "a8fe0951-3935-4486-bdba-6d3cf8797af4")
+		)
+		(pin "6"
+			(uuid "63d32b16-f4c1-4597-9d54-1a614ddc0297")
+		)
+		(pin "1"
+			(uuid "e0ac4c5d-69cc-4f1c-80c3-585641c25c79")
+		)
+		(pin "4"
+			(uuid "9786b6ec-da93-4287-b28f-5b6aa45be57b")
+		)
+		(pin "3"
+			(uuid "57bd9436-8a4c-4147-b2e0-7170c5e102d2")
+		)
+		(instances
+			(project ""
+				(path "/a8149920-3b7f-4d7d-8e96-7a0b38870225/750b9b07-db7a-4289-8a61-542df9f7ebc0"
+					(reference "U3")
 					(unit 1)
 				)
 			)
