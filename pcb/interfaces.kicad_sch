@@ -445,7 +445,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
+		(symbol "CRGM Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -457,14 +457,6 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -472,8 +464,17 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
+			(property "Value" "TestPoint"
+				(at 5.588 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
+				(at 0 -7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -482,7 +483,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 5.08 0 0)
+				(at 2.286 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -490,8 +491,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "test point"
-				(at 0 0 0)
+			(property "Description" "Test Point D1.0mm"
+				(at 0 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -699,7 +700,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 0 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1024,71 +1025,131 @@
 		)
 		(uuid "f4f2e6a9-e33e-47e9-bfec-56c8c3aafb45")
 	)
-	(hierarchical_label "EXT_SDA"
+	(global_label "RXD"
+		(shape output)
+		(at 128.27 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fcd0a9a-ddb4-4d4c-8879-0867e96add34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.0047 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TXD"
+		(shape input)
+		(at 128.27 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59b35ce8-0ed6-490d-b0c9-53883b4a2622")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.7023 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "EXT_SDA"
 		(shape bidirectional)
 		(at 64.77 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1780cca9-bebf-45ad-bc13-b9c9b006e3bb")
+		(uuid "5c8b0f2c-fa3b-40c3-b0fc-89bf227e3d8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.7283 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "EXT_SCL"
-		(shape output)
+	(global_label "EXT_SCL"
+		(shape input)
 		(at 64.77 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "48d35103-ca08-44df-beee-cca4d2d78d7c")
+		(uuid "85560f91-c339-4e99-acc0-e41300d244f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.5565 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "EXT_SDA"
+	(global_label "EXT_SDA"
 		(shape bidirectional)
 		(at 60.96 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "53454103-79a2-4c42-8463-7d49491f0165")
+		(uuid "a2c41479-2165-4fe2-b90a-25a8676245a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.9183 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
-	(hierarchical_label "RXD"
+	(global_label "EXT_SCL"
 		(shape input)
-		(at 128.27 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b7ea7f14-e488-4fd4-a1d0-87293f934125")
-	)
-	(hierarchical_label "EXT_SCL"
-		(shape output)
 		(at 60.96 33.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c1e8d1a8-7c72-45cf-9c92-751380e3a08e")
-	)
-	(hierarchical_label "TXD"
-		(shape output)
-		(at 128.27 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "db950b98-cc9f-4000-8d9b-d087c0debcfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.7465 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left)
 		)
-		(uuid "f59556a0-f380-4331-a116-f37828c915af")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1162,7 +1223,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 60.96 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1190,7 +1251,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 66.04 57.15 0)
+			(at 60.96 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1199,7 +1260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 57.15 0)
+			(at 63.246 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,8 +1268,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 60.96 57.15 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 60.96 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2135,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "CRGM Connector:TestPoint")
 		(at 58.42 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2102,7 +2163,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Mechanical:TestPoint_Pad_D1.0mm"
-			(at 63.5 57.15 0)
+			(at 58.42 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 57.15 0)
+			(at 60.706 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,8 +2180,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 58.42 57.15 0)
+		(property "Description" "Test Point D1.0mm"
+			(at 58.42 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)

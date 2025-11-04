@@ -1295,7 +1295,7 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 0 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1843,71 +1843,131 @@
 		)
 		(uuid "ed40f3ea-1d70-42d5-9d50-405d44431974")
 	)
-	(hierarchical_label "TXD"
-		(shape output)
-		(at 60.96 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "18587389-ad0c-4b72-bf9a-8224fd6f7908")
-	)
-	(hierarchical_label "SCL"
-		(shape output)
-		(at 60.96 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60e9a7b3-2d34-4b27-b1a5-2f7041865fa3")
-	)
-	(hierarchical_label "I2C_INT"
-		(shape input)
-		(at 109.22 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8e80e556-292f-478c-afc5-3336b8136525")
-	)
-	(hierarchical_label "RXD"
-		(shape input)
-		(at 60.96 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f251fc6-428b-4162-bc8c-41dc1e29c8a9")
-	)
-	(hierarchical_label "SDA"
+	(global_label "MCU_SDA"
 		(shape bidirectional)
 		(at 60.96 59.69 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ae730a26-32d2-49de-93ec-2aea5daf92eb")
+		(uuid "449178bd-4f00-465b-9c8f-2974660d63dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.2759 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
-	(hierarchical_label "I2C_RESET"
+	(global_label "TXD"
+		(shape output)
+		(at 60.96 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fa6b092-5d96-4b95-a69b-ca4217116e8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.5277 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_SCL"
+		(shape output)
+		(at 60.96 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "924d521d-6892-4091-b410-f9303825a0e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.4477 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_RESET"
 		(shape output)
 		(at 109.22 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f5f6b5b8-3199-42cd-891a-49efbba9e0c4")
+		(uuid "a120c9b3-0008-400c-ba02-5eb922c7ee97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.0022 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C_INT"
+		(shape input)
+		(at 109.22 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af09f532-aebb-4fd2-b20f-d3c7fcb7085f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RXD"
+		(shape input)
+		(at 60.96 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c50d5faf-9b50-4c85-863f-b5c817dfc6fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.2253 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
