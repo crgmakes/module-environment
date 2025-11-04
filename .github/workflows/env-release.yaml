@@ -17,4 +17,4 @@ jobs:
     with:
       name: 'Environment Module'
       repo-name: module-environment
-      file-name: module-environment
+      file-name: environment-module
