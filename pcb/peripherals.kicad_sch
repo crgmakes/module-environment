@@ -2040,7 +2040,7 @@
 	)
 	(rectangle
 		(start 15.24 15.24)
-		(end 198.12 70.866)
+		(end 203.2 70.866)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -2053,7 +2053,7 @@
 	)
 	(rectangle
 		(start 15.24 76.2)
-		(end 198.12 134.62)
+		(end 203.2 134.62)
 		(stroke
 			(width 0.254)
 			(type dash)
