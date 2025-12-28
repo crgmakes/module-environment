@@ -20739,7 +20739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 3.5mm"
+		(property "Footprint" "CRGM Logos:Roxy 5mm"
 			(at 67.31 194.818 0)
 			(effects
 				(font
@@ -21193,7 +21193,7 @@
 		(at 91.44 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "94786468-8805-4de5-9546-ba2b96bb46dc")
