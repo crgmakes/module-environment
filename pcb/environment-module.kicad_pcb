@@ -3255,6 +3255,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3266,6 +3267,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3588,6 +3590,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3599,6 +3602,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4298,6 +4302,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4309,6 +4314,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -27222,7 +27228,7 @@
 			(uuid "bd9bb735-d6c1-43a1-8b1a-8d26db63fc44")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2 0.025 0)
+			(at -1.8 -0.05 0)
 			(layer "F.Fab")
 			(uuid "4f47a920-2bb4-4d6f-ace8-ed0eab677ca8")
 			(effects
@@ -32726,7 +32732,7 @@
 			(uuid "47b60fdf-68c8-43a4-ae86-d0cff5f5e9ac")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.000001 0.075 0)
+			(at -1.8 -0.1 0)
 			(layer "F.Fab")
 			(uuid "40a0bd75-7a21-47bd-8d92-f044c21d00bc")
 			(effects
