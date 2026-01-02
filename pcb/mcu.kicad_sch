@@ -823,18 +823,19 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -842,8 +843,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -852,7 +853,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -869,7 +870,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -878,7 +879,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -896,13 +897,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -911,10 +912,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -922,10 +923,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -942,8 +943,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -2473,7 +2474,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 91.44 0)
+		(at 113.03 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2482,7 +2483,7 @@
 		(fields_autoplaced yes)
 		(uuid "4586f1a7-b05c-41fe-911c-34148c7e18cb")
 		(property "Reference" "#PWR06"
-			(at 113.03 97.79 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2492,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 95.5731 0)
+			(at 113.03 94.3031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 91.44 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 91.44 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2518,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 91.44 0)
+			(at 113.03 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2545,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 113.03 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2554,7 +2555,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bc1c9bf-3673-437e-82a5-4a4c5fdd149c")
 		(property "Reference" "C1"
-			(at 116.84 86.3599 0)
+			(at 115.3541 86.4241 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2564,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 116.84 88.8999 0)
+			(at 115.3541 88.8484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2573,7 @@
 			)
 		)
 		(property "Footprint" "CRGM Passive:C_0603_1608Metric"
-			(at 113.9952 91.44 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 113.03 87.63 0)
 			(effects
 				(font
@@ -2955,7 +2956,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 113.03 83.82 0)
+		(at 113.03 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2963,7 +2964,7 @@
 		(dnp no)
 		(uuid "8aa1be0b-c730-4259-969a-55011cfabc65")
 		(property "Reference" "#PWR05"
-			(at 113.03 87.63 0)
+			(at 113.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2973,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 113.03 80.264 0)
+			(at 113.03 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,7 +2981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 83.82 0)
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +2990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 83.82 0)
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +2999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 113.03 83.82 0)
+			(at 113.03 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

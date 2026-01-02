@@ -20190,7 +20190,7 @@
 		)
 		(uuid "ef28f1d1-0037-4334-a5a7-d8da0f280a6d")
 	)
-	(text_box "Interfaces:\n* 2 - QWICC\n* 2 - Power\n* UDPI"
+	(text_box "Interfaces:\n* 2 - QWICC\n* UDPI"
 		(exclude_from_sim yes)
 		(at 189.992 25.4 0)
 		(size 85.09 55.88)
@@ -20215,7 +20215,7 @@
 		)
 		(uuid "476feca6-7a92-4664-9f43-fe0060e907d9")
 	)
-	(text_box "PCB:\n4 Layers\nThickness: 1.6mm\nCopper: 2oz\nFinish: HASL\nSoldermask: Purple\nSilkscreen: White\nMin Trace: 0.1524mm/6mil\nMin Spacing: 0.127mm/5mil\nMin Drill: 0.25mm/6mil\nMin Via: 0.3mm/7mil\nMin Via Annular Ring: 0.6mm/15mil\n\n"
+	(text_box "PCB:\n4 Layers\nThickness: 1.6mm\nCopper: 1oz\nFinish: HASL\nSoldermask: Purple\nSilkscreen: White\nMin Trace: 0.1524mm/6mil\nMin Spacing: 0.127mm/5mil\nMin Drill: 0.25mm/6mil\nMin Via: 0.3mm/7mil\nMin Via Annular Ring: 0.6mm/15mil\n\n"
 		(exclude_from_sim yes)
 		(at 189.992 82.296 0)
 		(size 85.09 56.642)
@@ -20240,7 +20240,7 @@
 		)
 		(uuid "47ca0da0-9bec-4943-aa47-9af4a8e103f9")
 	)
-	(text_box "BASIC\n\n* ATTINY-1616 MCU\n* I2C Switch\n* Programming Header\n* I2C In and Out\n* Power In and Out\n\n"
+	(text_box "BASIC\n\n* ATTINY-1616 MCU\n* Programming Header\n* I2C Switch\n* QWICC In and Out\n\n"
 		(exclude_from_sim yes)
 		(at 17.78 25.4 0)
 		(size 85.09 55.88)
@@ -20667,7 +20667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 5mm"
+		(property "Footprint" "CRGM Logos:Roxy 4mm"
 			(at 67.31 194.818 0)
 			(effects
 				(font
