@@ -6736,8 +6736,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C129515"
+		(property "LCSC" "C400709"
 			(at 101.6 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC_ALT" "C129515"
+			(at 101.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
