@@ -723,6 +723,18 @@
           "label": "WVDC",
           "name": "WVDC",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC_ALT",
+          "name": "LCSC_ALT",
+          "show": false
         }
       ],
       "filter_string": "",

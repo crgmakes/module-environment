@@ -3287,26 +3287,6 @@
 		)
 		(uuid "c21c4d15-52dd-4f36-bb8d-0afc0e944a1b")
 	)
-	(label "A1"
-		(at 83.82 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2468c14-b615-4c58-a9b9-26b6ce6a3e48")
-	)
-	(label "A0"
-		(at 83.82 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c70172b6-2d67-4aff-9583-7acf80e72a72")
-	)
 	(label "TEMP_VDD"
 		(at 52.07 90.17 0)
 		(effects

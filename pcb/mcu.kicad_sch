@@ -33,7 +33,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+			(property "Footprint" "CRG Makes:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm_ThermalVias"
 				(at -0.762 -30.48 0)
 				(effects
 					(font
@@ -1909,16 +1909,6 @@
 			(type default)
 		)
 		(uuid "57d728ee-f08a-436c-80e1-52f3258e3f0a")
-	)
-	(wire
-		(pts
-			(xy 204.47 62.23) (xy 204.47 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "584ca85b-bcc3-4f0b-aaa9-99a7d0c5b720")
 	)
 	(wire
 		(pts
