@@ -51,6 +51,6 @@
         "anchor": "mr"
     },
     "post": {
-        "millradius": "0.1mm"
+        "millradiusouter": "1mm"
     }
 }
