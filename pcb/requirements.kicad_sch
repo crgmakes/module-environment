@@ -20172,7 +20172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "CRGM Logos:Roxy 4mm"
+		(property "Footprint" "CRGM Logos:Roxy 6.5mm"
 			(at 67.31 194.818 0)
 			(effects
 				(font
